@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Mouse+Memoirs&display=swap');
+body {
+    text-align: center;
+    background: url('../images/Backgrounds.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+h3 {
+    color: #ffffff
+}
+
+p{  
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Luckiest Guy', cursive;
+  
+}
+
+h3 {
+    margin: 1em;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.card{
+    margin: 20px;
+}
+
+#one-answer,  #three-answer, #five-answer, #seven-answer {
+    background-color: yellow;
+}
+
+#two-answer, #four-answer, #six-answer {
+    background-color: lime;
+}
+
+#one-incorrect, #three-incorrect, #five-incorrect, #seven-incorrect {
+    background-color: aqua;
+}
+
+#two-incorrect, #four-incorrect, #six-incorrect {
+    background-color: blueviolet;
+}
+
+#wrong-one-info, #wrong-two-info, #wrong-three-info, #wrong-four-info, #wrong-five-info, #wrong-six-info, #wrong-seven-info {
+    background-color: red;
+}
+
+#right-one-info, #right-two-info, #right-three-info, #right-four-info, #right-five-info, #right-six-info, #right-seven-info {
+    background-color: green;
+}
+
